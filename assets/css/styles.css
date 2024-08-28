@@ -1,0 +1,102 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #dde8fc;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout__container-crono {
+    margin-bottom: 1rem;
+}
+
+.layout__crono {
+    font-size: 7rem;
+    font-weight: bold;
+    width: 25rem;
+}
+
+.layout__btns {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.layout__btn-start,
+.layout__btn-stop,
+.layout__btn-lap,
+.layout__btn-reset {
+    width: 22%;
+    border: none;
+    background-color: #EC3D3D;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.7rem 0rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.layout__btn-stop {
+    background-color: #CCCCCC;
+    color: #fff;
+}
+
+.layout__btn-start:hover {
+    background-color: #1b971b;
+}
+
+.layout__btn-stop:hover {
+    background-color: #3a3a3a;
+}
+
+.layout__btn-lap {
+    background-color: #3498db;
+}
+
+.layout__btn-lap:hover {
+    background-color: #2578af;
+}
+
+.layout__btn-reset {
+    background-color: #f39c12;
+}
+
+.layout__btn-reset:hover {
+    background-color: #e67e22;
+}
+
+.layout__laps {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.laps__list {
+    list-style: none;
+    padding: 0;
+}
+
+.laps__list li {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
